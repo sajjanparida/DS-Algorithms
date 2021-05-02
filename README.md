@@ -5,3 +5,4 @@ This Repository will contain all different programs that I practice on my local 
 Below are topics which are covered in this repository
 
 1.Array
+(a) Given a list of integers, Calculate the maximum of the subarray from the given array
