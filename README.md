@@ -1,8 +1,10 @@
-# DS-Algorithms
+## DS-Algorithms
 
-This Repository will contain all different programs that I practice on my local machine and not GFG, LeetCode.
+This repository contains the various programs that I practice on my local machine and not on GFG or LeetCode.
+
+---
 
 Below are topics which are covered in this repository
 
-1.Array
-(a) Given a list of integers, Calculate the maximum of the subarray from the given array
+#### Array
+- [x] Given a list of integers, calculate the maximum of the subarray from the given array
