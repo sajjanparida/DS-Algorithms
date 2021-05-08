@@ -1,17 +1,14 @@
-# DS-Algorithms
+## DS-Algorithms
 
-This Repository will contain all different programs that I practice on my local machine and not GFG, LeetCode.
+This repository contains the various programs that I practice on my local machine and not on GFG or LeetCode.
+
+---
 
 Below are topics which are covered in this repository
 
-1.Array
-
-(a) Given a list of integers, Calculate the maximum of the subarray from the given array
-
-(b) Give a list of integers find the longest common subsequence.
-
-(C) Given two array, check if the second array is the subset of first array.
-
-(d) count numbers which are more than n/k numbers
-
+#### Array
+- [x] Given a list of integers, calculate the maximum of the subarray from the given array
+- [x] Give a list of integers, find the `longest common subsequence`
+- [x] Given two arrays, check if the second array is the subset of first array
+- [x] Count numbers which are more than `n/k` numbers
 
