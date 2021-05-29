@@ -1,31 +1,14 @@
-#program to delete 
+#write a recursive method to delete the node
+
 
 class Node:
-
     def __init__(self,data):
         self.data=data
         self.next=None
-    
 
 class LinkedList:
-
     def __init__(self):
         self.head = None
-
-    def deleteNode(self,key):
-        temp=self.head
-        if temp is None:
-            return
-        if temp.data==key:
-            self.head=temp.next
-            del temp
-            return
-
-        while(temp!=None and temp.data!=key):
-            prev=temp
-            temp=temp.next
-        prev.next=temp.next
-        del temp
 
     def printList(self):
         temp=self.head
@@ -33,6 +16,22 @@ class LinkedList:
             print(temp.data,end=' ')
             temp = temp.next
         print()
+
+
+    def deleteNode(self,head,key):
+        
+        curr=head
+    
+        if curr==None:
+            return 
+
+        if  curr.data==key:
+            temp = curr
+            curr=curr.next
+            del temp
+            return
+            
+        self.deleteNode(curr.next,key)
 
 llist = LinkedList()
 
@@ -46,5 +45,5 @@ first.next=second
 second.next=third
 third.next=fourth
 llist.printList()
-llist.deleteNode(1)
+llist.deleteNode(llist.head,3)
 llist.printList()
